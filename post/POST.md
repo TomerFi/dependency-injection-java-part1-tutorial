@@ -28,7 +28,7 @@ Let's visit the *wiki* definiation,</br>
 [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) - "IoC inverts the flow of control as compared to traditional control flow".
 
 So what is a *traditional control flow* :question:</br>
-It's simple: :a: :dash: :b: :dash: :o2:,</br>
+It's simple: :a: :arrow_right: :b: :arrow_right: :o2:,</br>
 
 :a: is the *customer* invoking :b:, the *provider* that uses :o2:, the *service* for performing some kind of action.
 
@@ -44,7 +44,7 @@ there is no reason for :b: to even know about :o2: :grey_exclamation:</br>
 
 So, How do we *invert the flow of control* here, how can we make :a: control :o2: for us :question:</br>
 
-Basically we need to do: :a: (:o2:) :dash: :b: :dash: :grey_question:</br>
+Basically we need to do: :a: (:o2:) :arrow_right: :b: :arrow_right: :grey_question:</br>
 
 Now, :a: is the customer, describing :o2:, the service and invoking :b:, the provider for performing some kind of action with the given service.
 
