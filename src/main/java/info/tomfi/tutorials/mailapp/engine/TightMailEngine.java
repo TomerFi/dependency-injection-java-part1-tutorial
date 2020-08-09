@@ -21,9 +21,7 @@ public final class TightMailEngine implements MailEngine {
 
   @Override
   public List<Mail> getAllMail() {
-    return concat(
-            gmailService.getMail().stream(),
-            microsoftService.getMail().stream())
+    return concat(gmailService.getMail().stream(), microsoftService.getMail().stream())
         .collect(toList());
   }
 }

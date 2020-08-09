@@ -6,11 +6,12 @@ import info.tomfi.tutorials.mailapp.core.Mail;
 import info.tomfi.tutorials.mailapp.core.MailEngine;
 import info.tomfi.tutorials.mailapp.core.MailService;
 import java.util.List;
+import java.util.Set;
 
 public final class RobustMailEngine implements MailEngine {
-  private final List<MailService> mailServices;
+  private final Set<MailService> mailServices;
 
-  public RobustMailEngine(final List<MailService> setMailSerices) {
+  public RobustMailEngine(final Set<MailService> setMailSerices) {
     mailServices = setMailSerices;
   }
 

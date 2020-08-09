@@ -9,6 +9,7 @@ public abstract class Mail {
 
   @Override
   public String toString() {
-    return String.format("Got mail by %s, from %s, with the subject %s", source(), from(), subject());
+    return String.format(
+        "Got mail by %s, from %s, with the subject %s", source(), from(), subject());
   }
 }

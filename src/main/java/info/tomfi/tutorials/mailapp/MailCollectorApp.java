@@ -1,12 +1,11 @@
 package info.tomfi.tutorials.mailapp;
 
-import java.util.List;
-
 import com.google.common.base.Joiner;
 import info.tomfi.tutorials.mailapp.core.MailEngine;
 import info.tomfi.tutorials.mailapp.core.service.GmailService;
 import info.tomfi.tutorials.mailapp.core.service.MicrosoftService;
 import info.tomfi.tutorials.mailapp.engine.RobustMailEngine;
+import java.util.Set;
 
 public final class MailCollectorApp {
   private MailEngine engine;
@@ -27,7 +26,7 @@ public final class MailCollectorApp {
     var gmailService = new GmailService();
     var microsoftService = new MicrosoftService();
 
-    var engine = new RobustMailEngine(List.of(gmailService, microsoftService));
+    var engine = new RobustMailEngine(Set.of(gmailService, microsoftService));
 
     var app = new MailCollectorApp(engine);
 

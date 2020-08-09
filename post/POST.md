@@ -364,9 +364,9 @@ Now, let's rewrite `LooseMailEngine` and make it more robust so we can also get 
 
 ```java
 public final class RobustMailEngine implements MailEngine {
-  private final List<MailService> mailServices;
+  private final Set<MailService> mailServices;
 
-  public RobustMailEngine(final List<MailService> setMailSerices) {
+  public RobustMailEngine(final Set<MailService> setMailSerices) {
     mailServices = setMailSerices;
   }
 
