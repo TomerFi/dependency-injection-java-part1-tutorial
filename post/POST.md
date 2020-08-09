@@ -22,6 +22,10 @@ The next parts will exemplify how to leverage *Dependency Injection* with the va
 
 You can check out the code for this part of the tutorial in [Github][0].
 
+The next parts of this tutorial series:
+
+- [Part 2 - Leveraging with Google Guice](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-2-leveraging-with-google-guice-6i4)
+
 ## 1. What is Inversion of Control
 
 Let's visit the *wiki* definition,</br>
@@ -492,6 +496,8 @@ public final class MailCollectorAppTest {
 ```
 
 You can check out the code for this part of the tutorial in [Github][0].
+
+The next part of this tutorial series is [Part 2 - Leveraging with Google Guice](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-2-leveraging-with-google-guice-6i4).
 
 **:wave: See you in the next part of this tutorial :wave:**
 
