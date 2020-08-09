@@ -24,7 +24,7 @@ You can check out the code for this part of the tutorial in [Github][0].
 
 ## 1. What is Inversion of Control
 
-Let's visit the *wiki* definiation,</br>
+Let's visit the *wiki* definition,</br>
 [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) - "IoC inverts the flow of control as compared to traditional control flow".
 
 So what is a *traditional control flow* :question:</br>
