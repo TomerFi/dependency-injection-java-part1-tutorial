@@ -10,7 +10,7 @@
 
   <name>dependency-injection-java-part1-tutorial</name>
   <url>https://portfolio.tomfi.info/tutorials.html</url>
-  <description>Dependency Injection in Java is easy - Part 1 - A Mear design pattern</description>
+  <description>Dependency Injection in Java is easy - Part 1 - Merely a design pattern</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -1,11 +1,11 @@
 ---
-title: Dependency Injection in Java is easy - Part 1 - A Mear design pattern
+title: Dependency Injection in Java is easy - Part 1 - Merely a design pattern
 published: false
 description: This is a series of posts simplifying and exemplifying Dependency Injection in Java.
 tags: ["java", "programming", "tutorial", "code"]
 ---
 
-## Part 1 - A Mear design pattern
+## Part 1 - Merely a design pattern
 
 *Dependency Injection* is a development concept that sounds terrifying at first. :fearful:</br>
 Well... not just at first...</br>
