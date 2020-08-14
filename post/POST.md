@@ -1,6 +1,6 @@
 ---
 title: Dependency Injection in Java is easy - Part 1 - Merely a design pattern
-published: false
+published: true
 description: This is a series of posts simplifying and exemplifying Dependency Injection in Java.
 tags: ["java", "programming", "tutorial", "code"]
 ---
