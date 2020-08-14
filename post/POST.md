@@ -25,6 +25,7 @@ You can check out the code for this part of the tutorial in [Github][0].
 The next parts of this tutorial series:
 
 - [Part 2 - Leveraging with Google Guice](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-2-leveraging-with-google-guice-6i4)
+- [Part 3 - Leveraging with Spring Context](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-3-leveraging-with-spring-context-gcc)
 
 ## 1. What is Inversion of Control
 
@@ -328,7 +329,7 @@ This is actually :poop: code for two main reasons:
 
 2. Adding another service will require modifications to `TightMailEngine`.</br>
    You'll have to add another `MailService` field, instantiate it inside the constructor and add to the concatenation in *getAllMails*.</br>
-   It is never a good practice to modify a working class, it's a path for breaking working code.
+   It is never a good practice to modify a working class, it's a path for breaking the working code.
 
 First thing's first, let's get rid of the first reason by rewriting the engine in a more *loosely-coupled* manner and fit it into the *dependency injection design pattern*.</br>
 It's easy:
@@ -497,7 +498,8 @@ public final class MailCollectorAppTest {
 
 You can check out the code for this part of the tutorial in [Github][0].
 
-The next part of this tutorial series is [Part 2 - Leveraging with Google Guice](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-2-leveraging-with-google-guice-6i4).
+The next parts of this tutorial series are [Part 2 - Leveraging with Google Guice](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-2-leveraging-with-google-guice-6i4) and [Part 3 - Leveraging with Spring Context](https://dev.to/tomerfi/dependency-injection-in-java-is-easy-part-3-leveraging-with-spring-context-gcc).</br>
+Both accomplish the same with a different *di framework*.
 
 **:wave: See you in the next part of this tutorial :wave:**
 
